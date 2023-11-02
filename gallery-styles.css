@@ -8,16 +8,18 @@
 }
 
 .accordion {
-    width: 800px; height: 400px;
+    width: 100%; height: 420px;
     overflow: hidden;
 
+	/* margin: 100px auto; */
 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
     -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 }
 
 .accordion ul {
-    width: 200px;
+    width: 2000px;
+	padding-left: 0;
 }
 
 .accordion li {
@@ -35,18 +37,23 @@
 	-moz-transition: all 0.5s;
 }
 
-.accordian ul:hover li {width: 40px;}
-.accordian ul li:hover {width: 640px;}
+.accordion ul:hover li {
+	width: 150px;
+}
 
-.accordian li img {
-	display: block;
+.accordion ul li:hover {
+	width: 640px;
+}
+
+.images {
+	height: 420px;
 }
 
 .image_title {
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	left: 0; bottom: 0;	
-    width: 640px;
+    width: 700px;
 }
 .image_title a {
 	display: block;
